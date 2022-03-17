@@ -1,0 +1,29 @@
+/* .word-synonyms li {
+  display: inline-block;
+} */
+/* .word-synonyms li:not(:first-child) {
+  margin-left: 15px;
+} */
+
+.list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+.list-item {
+  text-align: center;
+  padding: 9px 0 12px;
+  flex: 1 1 auto;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  background: transparent;
+  transition: .3s;
+}
+.list-item:not(:first-child) {
+  border-left: 1px solid #000;
+}
+.list-item:hover {
+  background: rgb(44, 44, 44);
+}

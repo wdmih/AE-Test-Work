@@ -1,0 +1,11 @@
+.color-picker {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 175px;
+}
+.color-picker--item {
+  border: none;
+  padding: 0;
+  width: 12.5px;
+  height: 12.5px;
+}

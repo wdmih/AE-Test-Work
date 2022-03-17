@@ -1,0 +1,40 @@
+.control-panel {
+    position: absolute;
+    z-index: 2000;
+    background: rgb(63, 63, 63);
+    color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.control-panel.active {
+    visibility: visible;
+}
+.format-action {
+    color: #fff;
+    background: none;
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid #000;
+    position: relative;
+    transition: color .3s ease;
+}
+.format-action:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: #000;
+}
+.format-action:hover {
+    background: rgb(44, 44, 44);
+}
+
+.format-actions {
+    border-bottom: 1px solid #000;
+}
+

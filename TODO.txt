@@ -1,0 +1,9 @@
+@@ 1) interact by dbclick or selection
+@@ 2) Bold
+@@ 3) Italic
+@@ 4) Underine
+@@ 5) show Synonyms
+@@ 6) replace word by Synonyms with keep formating
+@@ 7) text input
+@@ 8) color settings for words
+@@ 9) intendation
